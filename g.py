@@ -1,5 +1,5 @@
 # (C) 1996 Nikhil @itsN1X Pandita
-## Gamblers calculator
+## A d/gamblers calculator.
 ### https://itsn1x.github.io/8621_infty_die : JavaScript (ES8 compatible)
 ### https://itsn1x.github.io/8644_infty_die : Python (2.0 & 3 compatible)
 def suma(sini, sinc, site):
@@ -25,4 +25,5 @@ iini = float(input("ini : "))
 iinc = float(input("inc : "))
 iite = int(input("ite : "))
 wincon = int(input("wco : "))
-print(profun(iini,iinc,iite,wincon),"\n",l(iini,iinc,iite,wincon))
+print(profun(iini,iinc,iite,wincon))
+l(iini,iinc,iite,wincon)
