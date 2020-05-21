@@ -15,8 +15,15 @@ def profun(a,b,c,d):
 	x=d*llast(a,b,c)
 	y=(suma(a,b,c))
 	return (x-y)
+def l(e,f,g,h):
+    for k in range(g):
+            i=k+1
+            print(i,llast(e,f,i),suma(e,f,i),p(e,f,i,h))
+# For use w/o imports;
+## Utilities (On by default)
 iini = float(input("ini : "))
 iinc = float(input("inc : "))
 iite = int(input("ite : "))
 wincon = int(input("wco : "))
 print(profun(iini,iinc,iite,wincon))
+print(l(iini,iinc,iite,wincon))
