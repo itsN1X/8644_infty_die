@@ -1,7 +1,7 @@
 # (C) 1996 Nikhil @itsN1X Pandita
-## Gamblers calculator.
-### https://itsn1x.github.io/8621_infty_die/ : JavaScript (ES8 compatible)
-### https://itsn1x.github.io/8644_infty_die/ : Python (2.0 & 3 compatible)
+## Gamblers calculator
+### https://itsn1x.github.io/8621_infty_die : JavaScript (ES8 compatible)
+### https://itsn1x.github.io/8644_infty_die : Python (2.0 & 3 compatible)
 def suma(sini, sinc, site):
 	ssum=0
 	for si in range(site):
@@ -18,12 +18,11 @@ def profun(a,b,c,d):
 def l(e,f,g,h):
     for k in range(g):
             i=k+1
-            print(i,llast(e,f,i),suma(e,f,i),p(e,f,i,h))
+            print(i,llast(e,f,i),suma(e,f,i),profun(e,f,i,h))
 # For use w/o imports;
 ## Utilities (On by default)
 iini = float(input("ini : "))
 iinc = float(input("inc : "))
 iite = int(input("ite : "))
 wincon = int(input("wco : "))
-print(profun(iini,iinc,iite,wincon))
-print(l(iini,iinc,iite,wincon))
+print(profun(iini,iinc,iite,wincon),"\n",l(iini,iinc,iite,wincon))
