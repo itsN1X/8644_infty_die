@@ -11,12 +11,12 @@ def suma(sini, sinc, site):
 def llast(lini,linc,lite):
 	llini=lini*(linc**(lite-1))
 	return llini
-def profun(a,b,c):
-	x=wincon*llast(a,b,c)
+def profun(a,b,c,d):
+	x=d*llast(a,b,c)
 	y=(suma(a,b,c))
 	return (x-y)
 iini = float(input("ini : "))
 iinc = float(input("inc : "))
 iite = int(input("ite : "))
 wincon = int(input("wco : "))
-print(profun(iini,iinc,iite))
+print(profun(iini,iinc,iite,wincon))
